@@ -1,4 +1,10 @@
+/*
+    It is data that we can enter manually in App.jsx while we are calling the Entry React component in the App.jsx function.
+     It is a complex thing, and the code will become complex and rubbish. We are storing the data separately in data.js in an array format,
+      as objects in an array. We will call this data using the `map` method in App.jsx, and that will assign these values to the header HTML template using props. 
+*/
 export default [
+    
     {
         id: 1,
         img: {
